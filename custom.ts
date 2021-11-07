@@ -12,7 +12,7 @@ namespace  Doublenotes {
      * @param e describe parameter here, eg: ""
      */
     //% block
-    export function twoNotes(s: Note, e: Note): void {
+    export function PlayTwoTones(s: Note,e: Note): void {
         // Add code here
         let  myTempo = music.tempo()
         music.setTempo(myTempo * 10)
