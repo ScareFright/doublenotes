@@ -1,10 +1,1 @@
-music.setTempo(120)
-basic.forever(function () {
-    music.playTone(392, music.beat(BeatFraction.Whole))
-    Doublenotes.twoNotes(Note.CSharp4, Note.Eb4)
-    music.playTone(330, music.beat(BeatFraction.Whole))
-    Doublenotes.twoNotes(Note.Bb, Note.G)
-    music.playTone(554, music.beat(BeatFraction.Whole))
-    Doublenotes.twoNotes(Note.E, Note.Eb)
-    music.playTone(165, music.beat(BeatFraction.Whole))
-})
+
